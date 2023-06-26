@@ -46,13 +46,4 @@ afterEvaluate {
 
 dependencies {
 
-    api(libs.material)
-    api(libs.androidx.appcompat)
-    api(libs.androidx.core.ktx)
-    api(libs.androidx.activity.ktx)
-    api(libs.androidx.fragment.ktx)
-    api(libs.androidx.lifecycle.viewmodel.ktx)
-    api(libs.androidx.constraintlayout.constraintlayout)
-    api(libs.androidx.recyclerview.recyclerview)
-    api(libs.jetbrains.kotlin.reflect)
 }
