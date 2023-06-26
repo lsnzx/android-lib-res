@@ -45,5 +45,5 @@ afterEvaluate {
 }
 
 dependencies {
-
+    implementation(libs.androidx.recyclerview.recyclerview)
 }
