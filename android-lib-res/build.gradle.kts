@@ -36,7 +36,7 @@ afterEvaluate {
             create<MavenPublication>("maven") {
                 groupId = "com.lsn.lib"
                 artifactId = "res"
-                version = "1.0.1"
+                version = "1.0.0"
 //                from(components["java"])
                 afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) }
             }
